@@ -1,6 +1,7 @@
 
 package org.usfirst.frc.team79.robot;
 
+import org.usfirst.frc.team79.robot.commands.Autono;
 import org.usfirst.frc.team79.robot.commands.CommandBase;
 import org.usfirst.frc.team79.robot.commands.Drive;
 
@@ -61,9 +62,10 @@ public class Robot extends IterativeRobot {
 	}
 
     public void autonomousInit() {
-	    
-	autonomousCommand = new Autono();
+    	
+    	autonomousCommand = new Autono();
 
+    	
         if (autonomousCommand != null) {
         	autonomousCommand.start();
         }

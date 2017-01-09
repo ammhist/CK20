@@ -17,7 +17,6 @@ public class Drive extends CommandBase {
     	
 		arcadeDrive.arcadeDrive(Robot.oi.getJoystick());
 		arcadeDrive.CANTalon();
-
     }
 
     // Called repeatedly when this Command is scheduled to run
