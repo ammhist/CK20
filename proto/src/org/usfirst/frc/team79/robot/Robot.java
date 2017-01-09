@@ -61,6 +61,9 @@ public class Robot extends IterativeRobot {
 	}
 
     public void autonomousInit() {
+	    
+	autonomousCommand = new Autono();
+
         if (autonomousCommand != null) {
         	autonomousCommand.start();
         }
