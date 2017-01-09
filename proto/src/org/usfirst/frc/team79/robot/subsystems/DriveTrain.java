@@ -23,7 +23,7 @@ public static CANTalon FrontLeft, BackLeft, FrontRight, BackRight , MiddleLeft, 
 	    MiddleRight = new CANTalon(RobotMap.MiddleRightMotor);
 	    MiddleLeft = new CANTalon(RobotMap.MiddleLeftMotor);
 	    
-	    Drive = new RobotDrive(FrontLeft, BackLeft, FrontRight, BackLeft);
+	    Drive = new RobotDrive(BackLeft, FrontLeft, BackRight, FrontLeft);
 	    
 	}
 
